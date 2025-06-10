@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
 
     <link rel="stylesheet" href="portcss.css">
 </head>
+
 <body>
 
     <header>
@@ -15,11 +17,11 @@
 
             <div id="menu">
 
-                <button id="roboto-btn">Mr. Roboto</button>
-                <button id="about-btn">About Me</button>
-                <button id="skill-btn">Skills & Experience</button>
-                <button id="port-btn">Portfolio</button>
-                <button id="contact-btn">Contact</button>
+                <a id="roboto-btn">Mr. Roboto</a>
+                <a id="about-btn" href="#about-arti-main">About Me</a>
+                <a id="skill-btn" href="#skill-arti">Skills & Experience</a>
+                <a id="port-btn" href="#port-arti">Portfolio</a>
+                <a id="contact-btn" href="#contact-arti">Contact</a>
 
             </div>
 
@@ -38,10 +40,86 @@
 
         <div id="pointer-nav"></div>
         <div id="btn-nav"></div>
-        
+
     </nav>
-    
+
+    <main>
+
+        <article id="about-arti-main">
+
+            <div id="about-arti">
+
+                <p id="about-head">About Me</p>
+                <p id="about-conv">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ratione impedit
+                    soluta amet quas saepe temporibus <span id="udl"> eum reprehenderit voluptas! </span>  A nihil adipisci itaque quos quo
+                    dolorum consequuntur iusto facere quaerat, excepturi quod, necessitatibus aliquid quae est qui, aut
+                    in assumenda animi tempora debitis. Beatae, veritatis, delectus. Repellat dolore, molestias nam.</p>
+
+            </div>
+
+
+        </article>
+
+        <article id="skill-arti"">
+            
+            <div id="skill-head" style="font-weight: 600;">Skills & Experience</div>
+            <div id="skill-conv">
+
+                <p id="cloud"><span style="font-weight: 600;">Cloud Computing</span> <br><br><span style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda modi maiores eum commodi soluta, blanditiis voluptates ea eos, cim! Neque.</span></p>
+                <p id="expert"><span style="font-weight: 600;">Expert Coding</span> <br><br><span style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda modi maiores eum commodi soluta, blanditiis voluptates ea eos, cim! Neque.</span></p>
+                <p id="data"><span style="font-weight: 600;">Data Analysis</span> <br><br><span style="font-size: 19px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda modi maiores eum commodi soluta, blanditiis voluptates ea eos, cim! Neque.</span></p>
+
+            </div>
+            
+        </article>
+
+        <article id="port-arti">
+
+            <div id="port-head">
+
+                <p>Portfolio</p>
+
+            </div>
+
+            <div id="port-pic">
+
+                <img src="https://unsplash.it/800/450?image=250" alt="camera-picture" id="camera">
+                <img src="https://unsplash.it/800/450?image=249" alt="river-view-picture" id="river-view">
+                <img src="https://unsplash.it/800/450?image=248" alt="cactus-picture" id="cactus-pic">
+                <img src="https://unsplash.it/800/450?image=247" alt="desert-view-picture" id="desert-view">
+                <img src="https://unsplash.it/800/450?image=239" alt="hand-cactus-picture" id="hand-cactus-pic">
+                <img src="https://unsplash.it/800/450?image=238" alt="city-view" id="city-view">
+
+            </div>
+
+        </article>
+
+        <article id="contact-arti">
+
+            <div id="contact-head">Contact Me</div>
+            
+            <form action="" id="contact-form">
+
+                <input type="text" placeholder="Name" id="name">
+                <input type="email" placeholder="Email" id="email">
+                <input type="text" placeholder="Subject" id="subject">
+                <input type="text" placeholder="Messege" id="messege">
+                <input type="submit" placeholder="SEND" id="send">
+
+            </form>
+
+        </article>
+
+    </main>
+
+    <footer>
+
+        <h1>Made by Skinpall</h1>
+        
+    </footer>
+
     <script src="portjs.js"></script>
 
 </body>
+
 </html>
